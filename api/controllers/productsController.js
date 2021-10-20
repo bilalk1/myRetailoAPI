@@ -4,7 +4,7 @@
 var mongoose = require('mongoose'),
   Product = mongoose.model('Products');
 
-exports.list_all_products = function(req, res) { // use sunctions instead of expressions using module.export
+exports.list_all_products = function(req, res) { // use functions instead of expressions using module.export
   Product.find({}, function(err, task) {
     if (err)
       res.send(err);

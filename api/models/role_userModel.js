@@ -17,4 +17,4 @@ var RoleUserSchema = new Schema({
 }
 });
 
-module.exports = mongoose.model('RoleUsers', RoleUserSchema);
+module.exports = mongoose.model('RoleUser', RoleUserSchema);
